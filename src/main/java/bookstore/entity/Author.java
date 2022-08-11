@@ -11,6 +11,7 @@ import lombok.Builder;
 import lombok.Data;
 import lombok.NoArgsConstructor;
 
+
 @Entity
 @Data
 @Builder
@@ -27,8 +28,6 @@ public class Author {
 	
 	@Column(nullable= false)
 	private Integer age;
-	
-	
 	
 	
 }
